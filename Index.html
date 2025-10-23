@@ -7,6 +7,15 @@
     <title>WebCodeX - Transformamos suas ideias em sites incríveis</title>
     <meta name="description"
         content="A WebCodeX cria soluções digitais modernas, rápidas e personalizadas para impulsionar o seu negócio online.">
+    <meta name="keywords" content="criação de sites, landing pages, cardápios digitais, SEO, desenvolvimento web">
+    <meta name="author" content="WebCodeX">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WebCodeX - Soluções Digitais Modernas">
+    <meta property="og:description" content="Transformamos suas ideias em sites incríveis">
+    <meta property="og:type" content="website">
+
+    <!-- Preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -19,7 +28,9 @@
     <!-- Header -->
     <header id="header">
         <div class="container header-container">
-            <a href="#" class="logo"><img src="img/logoa.jpeg" alt=""></a>
+            <a href="#" class="logo">
+                <img src="img/logoa.jpeg" alt="WebCodeX - Criação de Sites" width="110" height="40">
+            </a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home">Início</a></li>
@@ -30,11 +41,14 @@
                 </ul>
             </nav>
             <div class="header-cta">
-                <a href="https://wa.me/5584999895639" class="btn btn-primary">Solicitar Orçamento</a>
+                <a href="https://wa.me/5584999895639" class="btn btn-primary"
+                    aria-label="Solicitar orçamento no WhatsApp">
+                    <i class="fab fa-whatsapp"></i> Orçamento
+                </a>
             </div>
-            <div class="mobile-menu">
+            <button class="mobile-menu" aria-label="Abrir menu" aria-expanded="false">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
         </div>
     </header>
 
@@ -46,7 +60,9 @@
                 <p>A WebCodeX cria soluções digitais modernas, rápidas e personalizadas para impulsionar o seu negócio
                     online.</p>
                 <div class="hero-btns">
-                    <a href="https://wa.me/5584999895639" class="btn btn-primary">Quero meu site agora</a>
+                    <a href="https://wa.me/5584999895639" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Quero meu site agora
+                    </a>
                     <a href="#services" class="btn btn-secondary">Conhecer serviços</a>
                 </div>
             </div>
@@ -61,37 +77,37 @@
                 <p>Oferecemos soluções digitais completas para impulsionar sua presença online</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-laptop-code"></i>
+                        <i class="fas fa-laptop-code" aria-hidden="true"></i>
                     </div>
                     <h3>Criação de Sites Profissionais</h3>
                     <p>Desenvolvemos sites modernos, responsivos e otimizados para conversão, alinhados com a identidade
                         da sua marca.</p>
-                </div>
-                <div class="service-card">
+                </article>
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-rocket" aria-hidden="true"></i>
                     </div>
                     <h3>Landing Pages de Alta Conversão</h3>
                     <p>Criamos páginas estratégicas focadas em transformar visitantes em clientes e aumentar suas
                         vendas.</p>
-                </div>
-                <div class="service-card">
+                </article>
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
                     </div>
-                    <h3>Cardápios Digitais com Envio via WhatsApp</h3>
+                    <h3>Cardápios Digitais</h3>
                     <p>Desenvolvemos cardápios interativos que facilitam o pedido dos clientes diretamente pelo
                         WhatsApp.</p>
-                </div>
-                <div class="service-card">
+                </article>
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search" aria-hidden="true"></i>
                     </div>
-                    <h3>Otimização SEO e Google Meu Negócio</h3>
+                    <h3>Otimização SEO</h3>
                     <p>Melhoramos seu posicionamento nos mecanismos de busca e gerenciamos sua presença no Google.</p>
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -104,30 +120,30 @@
                 <p>Confira alguns dos nossos projetos recentes</p>
             </div>
             <div class="portfolio-grid">
-                <div class="portfolio-item">
+                <article class="portfolio-item">
                     <div class="portfolio-content">
                         <h3>Restaurante Sabor & Arte</h3>
                         <p>Site institucional com cardápio digital integrado</p>
                     </div>
-                </div>
-                <div class="portfolio-item">
+                </article>
+                <article class="portfolio-item">
                     <div class="portfolio-content">
                         <h3>Academia Vida Ativa</h3>
                         <p>Landing page para captação de leads</p>
                     </div>
-                </div>
-                <div class="portfolio-item">
+                </article>
+                <article class="portfolio-item">
                     <div class="portfolio-content">
                         <h3>Consultório Dra. Maria Silva</h3>
                         <p>Site profissional com agendamento online</p>
                     </div>
-                </div>
-                <div class="portfolio-item">
+                </article>
+                <article class="portfolio-item">
                     <div class="portfolio-content">
                         <h3>Loja Moda Elegante</h3>
                         <p>E-commerce completo com integração de pagamento</p>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -145,7 +161,7 @@
                     <a href="#contact" class="btn btn-primary">Entre em contato</a>
                 </div>
                 <div class="about-image">
-                    <i class="fas fa-code"></i>
+                    <i class="fas fa-code" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -159,45 +175,45 @@
                 <p>O que nossos clientes dizem sobre nossos serviços</p>
             </div>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <article class="testimonial-card">
                     <div class="testimonial-content">
                         <p>Excelente trabalho! O site ficou exatamente como eu imaginava e as vendas aumentaram 40%
                             depois que lançamos.</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">CS</div>
+                        <div class="author-avatar" aria-hidden="true">CS</div>
                         <div class="author-info">
                             <h4>Carlos Silva</h4>
                             <p>Restaurante Sabor & Arte</p>
                         </div>
                     </div>
-                </div>
-                <div class="testimonial-card">
+                </article>
+                <article class="testimonial-card">
                     <div class="testimonial-content">
                         <p>Profissionalismo e qualidade! A landing page que criaram superou minhas expectativas e
                             converte muito melhor.</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">AS</div>
+                        <div class="author-avatar" aria-hidden="true">AS</div>
                         <div class="author-info">
                             <h4>Ana Souza</h4>
                             <p>Consultora de Marketing</p>
                         </div>
                     </div>
-                </div>
-                <div class="testimonial-card">
+                </article>
+                <article class="testimonial-card">
                     <div class="testimonial-content">
                         <p>O cardápio digital facilitou muito o trabalho da minha equipe e os clientes adoram a
                             praticidade de pedir pelo WhatsApp.</p>
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">MP</div>
+                        <div class="author-avatar" aria-hidden="true">MP</div>
                         <div class="author-info">
                             <h4>Marcos Pereira</h4>
                             <p>Lanchonete Sabor Caseiro</p>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -212,21 +228,21 @@
                         personalizado.</p>
                     <div class="contact-details">
                         <div class="contact-item">
-                            <i class="fas fa-phone-alt"></i>
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
                             <div>
                                 <h4>Telefone/WhatsApp</h4>
                                 <p>(84) 99989-5639</p>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
                             <div>
                                 <h4>E-mail</h4>
                                 <p>contato@webcodex.com.br</p>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                             <div>
                                 <h4>Localização</h4>
                                 <p>Natal/RN - Brasil</p>
@@ -242,17 +258,18 @@
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Nome</label>
-                            <input type="text" id="name" class="form-control" required>
+                            <input type="text" id="name" class="form-control" required placeholder="Seu nome completo">
                         </div>
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" class="form-control" required>
+                            <input type="email" id="email" class="form-control" required placeholder="seu@email.com">
                         </div>
                         <div class="form-group">
                             <label for="message">Mensagem</label>
-                            <textarea id="message" class="form-control" required></textarea>
+                            <textarea id="message" class="form-control" required
+                                placeholder="Conte-nos sobre seu projeto..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensagem</button>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
                     </form>
                 </div>
             </div>
@@ -268,9 +285,9 @@
                     <p>Transformamos ideias em soluções digitais inovadoras, criando experiências únicas que impulsionam
                         negócios e conectam marcas com seu público.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/5584999895639"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5584999895639" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
@@ -298,6 +315,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5584999895639" class="whatsapp-float" aria-label="Fale conosco no WhatsApp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <script src="script.js"></script>
 </body>
