@@ -1,0 +1,11 @@
+{
+  "name": "webcodex",
+  "version": "1.0.0",
+  "description": "WebCodeX - Transformamos suas ideias em sites incríveis",
+  "scripts": {
+    "build": "echo 'Build completed'"
+  },
+  "keywords": ["website", "development", "landing-page"],
+  "author": "WebCodeX",
+  "license": "MIT"
+}
